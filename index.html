@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+      
+      <div class="current-weather">
+        <div class="weather-icon"><img src="icons/unknown.png" /></div>
+          <div class="current-details">
+              <div class="current-description">
+                <span class="description">Unkwown</span>
+                <span class="city">Unknown</span> 
+                <span class="current-time"></span>
+              </div>
+              <form action="submit" class="form">
+                <input type="text" class="input" placeholder="Enter Location">
+              </form>
+              
+              <div class="current-elements">
+                  <div class="current-wind ">Wind 
+                    <span class="element-unit">9.3</span>
+                  </div>
+                  <div class="current-temp">Temperature 
+                    <span class="element-unit">26.6</span>
+                  </div>
+                  <div class="current-precip">Humidity <span class="element-unit">6.9</span></div>
+              </div>
+          </div>
+          <div class="forecast-section">
+              <div class="forecast-title">Hourly/Daily Forecast</div>
+            <div class="forecast-weather">
+                <div class="forecast-item">
+                  <div class="forecast-description">Forecasts go here</div>
+                </div>
+                <div class="forecast-item">
+                  <div class="forecast-description">Forecasts go here</div>
+  
+                </div>
+                <div class="forecast-item">
+                  <div class="forecast-description">Forecasts go here</div>
+  
+                </div>
+                <div class="forecast-item">
+                  <div class="forecast-description">Forecasts go here</div>
+  
+                </div>
+            </div>
+        </div>
+          
+      </div>
+  </div>
+
+</body>
+</html>
