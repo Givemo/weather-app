@@ -9,7 +9,7 @@
     --clr-light: #fff;
     --clr-grey: rgb(172, 136, 136);
 
-    --ff: Arial, Helvetica, sans-serif;
+    --ff: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     --fs-xlg: 3rem;
     --fs-sm: 1rem;
@@ -155,6 +155,12 @@ body {
     padding: 1em;
 }
 
+.forecast-section {
+    font-weight: var(--fw-normal);
+    font-size: var(--fs-sm);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .forecast-title {
     font-size: var(--fs-sm);
     margin: 0 0 0.5em 0;
@@ -170,7 +176,13 @@ body {
     box-shadow: 0px 0px 10px var(--clr-grey);
 }
 
+.small-icon {
+    width: 4rem;
+}
 
+#small-description {
+    font-size: var(--fs-sm);
+}
 
 
 @media screen and (min-width: 600px) {
@@ -180,5 +192,9 @@ body {
 
     .description {
         font-size: var(--fs-lg);
+    }
+
+    .forecast-section {
+        font-size: 1.2rem;
     }
 }
