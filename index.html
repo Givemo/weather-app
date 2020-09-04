@@ -19,7 +19,7 @@
                 <span class="current-time"></span>
               </div>
               <form action="submit" class="form">
-                <input type="text" class="input" placeholder="Enter Location">
+                <input type="text" class="input" required placeholder="Enter Location">
               </form>
               
               <div class="current-elements">
@@ -33,9 +33,9 @@
               </div>
           </div>
           <div class="forecast-section">
-              <div class="forecast-title">Hourly/Daily Forecast</div>
+              <div class="forecast-title">Hourly Forecast</div>
             <div class="forecast-weather">
-                <div class="forecast-item">
+                <!--<div class="forecast-item">
                   
                   <div class="forecast-description">
                     <div class="hour1">Hour 1</div>
@@ -43,7 +43,7 @@
                       <img class="small-icon" src="icons/unknown.png" />
                     </div>
                     <div class="description" id="small-description1"></div>
-                  </div>
+                  </div>-->
                 </div>
             </div>
         </div>
@@ -53,10 +53,11 @@
 
   <template id="task-template">
     <div class="forecast-description">
-      <div class="hour1"></div>
+      <div class="hour1">After 1 hour</div>
       <div class="weather-icon icon1">
         <img class="small-icon" src="icons/unknown.png" />
       </div>
+      <div class="description small-description" id="small-description1">Unknown</div>
 </template>
 
 </body>

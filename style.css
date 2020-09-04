@@ -184,6 +184,10 @@ body {
     font-size: var(--fs-sm);
 }
 
+.small-description {
+    font-size: var(--fs-sm);
+}
+
 
 @media screen and (min-width: 600px) {
     .container {
